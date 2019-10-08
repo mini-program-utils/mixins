@@ -1,20 +1,3 @@
-/*
- * // 1. 在 app.js 中引入此文件
- * require('mixin.js')
- *
- * // 2. 撰写一个 testMixin.js
- * module.exports = {
- *   data: { someData: 'testMixin' },
- *   onShow () { console.log('Log from mixin!') }
- * }
- *
- * // 3. 在页面 page/index/index.js 引入
- * const testMixin = require('testMixin.js')
- * Page({
- *   mixins: [testMixin]
- * })
- */
-
 const originPage = Page;
 const originComponent = Component;
 
