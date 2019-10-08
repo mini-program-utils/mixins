@@ -1,0 +1,8 @@
+{
+  "name": "miniprogram-mixin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/UZIhuhuhu/mini-program-mixin.git",
+  "author": "tinyhuang <wynnxin@qingyou.ren>",
+  "license": "MIT"
+}
