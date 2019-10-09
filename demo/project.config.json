@@ -6,26 +6,16 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
-		"enhance": false,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
-		"nodeModules": true,
 		"autoAudits": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		}
+		"coverView": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.3",
 	"appid": "wx4d98135538c4ac3e",
-	"projectname": "miniprogram-mixin",
+	"projectname": "miniprogram-mixin-demo",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
