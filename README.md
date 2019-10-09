@@ -4,6 +4,7 @@ As we know, in the miniprogram, `Component` has [`behaviors`](https://developers
 
 `miniprogram-mixin` works.
 
+---
 
 ### install
 
@@ -11,11 +12,36 @@ As we know, in the miniprogram, `Component` has [`behaviors`](https://developers
 yarn add miniprogram-mixin
 ```
 
-### demo usage
+### usage
 
-- in the `/test/demo` directory
+#### require it in `app.js`
 
-- You can also open the [code snippet link](https://developers.weixin.qq.com/s/BtaZPYmQ7Fbu) in wechat devtools.
+```js
+// app.js
+require('miniprogram-mixin');
+```
+
+Now you can use mixin happily.
+
+```js
+// mixin/mixinA.js
+module.exports = {
+  data: {},
+  onLoad() {}
+}
+```
+
+**tips: You need to read the npm support [documentation](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html) for the miniprogram**
+
+---
+
+### demo
+
+- in the `demo/` directory
+
+- You can also open the code snippet [link](https://developers.weixin.qq.com/s/gcfqzZm87lbW) in wechat devtools.
+
+---
 
 #### LICENSE
 
