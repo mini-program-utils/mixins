@@ -39,6 +39,12 @@ module.exports = {
 
 - in the `demo/` directory
 
+```bash
+yarn install
+```
+
+Then open the project in devtools.
+
 - You can also open the code snippet [link](https://developers.weixin.qq.com/s/gcfqzZm87lbW) in wechat devtools.
 
 ---
